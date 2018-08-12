@@ -1,0 +1,27 @@
+{
+  "name": "remoyte",
+  "version": "1.0.0",
+  "description": "Discord controlled youtube window",
+  "main": "main.js",
+  "config": {
+    "debugmode": true
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "sass": "sass --watch scss/main.scss output.css",
+    "sass:build": "sass scss/main.scss output.css",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.tym17.remoyte",
+    "productName": "Remoyte"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.7",
+    "electron-builder": "^20.27.1"
+  }
+}

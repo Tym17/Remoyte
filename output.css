@@ -1,0 +1,79 @@
+.nav {
+  background-color: #232323;
+  color: white;
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 8px;
+  margin-top: -8px;
+  border-bottom: #0a0a0a 1px solid;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+.nav #nav-title {
+  margin-right: auto;
+}
+.nav button {
+  color: white;
+  width: 50px;
+  background: #232323;
+  border: none;
+  transition-duration: 0.2s;
+  -webkit-app-region: no-drag;
+}
+.nav button:hover {
+  background: #911212;
+  cursor: pointer;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #303030;
+  color: #EEE;
+}
+
+ol {
+  color: #FF0000;
+}
+
+li {
+  color: #EEE;
+  margin-bottom: 17px;
+}
+li input {
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #3d3d3d;
+  border: 1px solid #919191;
+  color: #ff8080;
+  width: 50%;
+}
+li a {
+  color: #ff1a1a;
+}
+li a:hover {
+  color: #ff8080;
+}
+li button {
+  border: none;
+  background: #565656;
+  color: white;
+  transition-duration: 0.2s;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.1rem;
+}
+li button:hover {
+  background: #707070;
+  cursor: pointer;
+}
+li button:active {
+  background: #898989;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=output.css.map */

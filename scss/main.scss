@@ -1,0 +1,68 @@
+@import 'colors';
+@import 'nav';
+
+html
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background: lighten($accent-dark, 5);
+    color: #EEE;
+}
+
+ol
+{
+    color: $accent;
+}
+
+li
+{
+    color: #EEE;
+    margin-bottom: 17px;
+
+    input
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        background: lighten($accent-dark, 10);
+        border: 1px solid mix(white, $accent-dark, 50);
+        color: mix($accent, white, 50);
+        width: 50%;
+    }
+
+    a
+    {
+        color: mix(white, $accent, 10);
+
+        &:hover
+        {
+            color: mix(white, $accent, 50);
+        }
+    }
+
+    button
+    {
+        border: none;
+        background: lighten($accent-dark, 20);
+        color: white;
+        transition-duration: .2s;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: .1rem;
+
+        &:hover
+        {
+            background: lighten($accent-dark, 30);
+            cursor: pointer;
+        }
+
+        &:active
+        {
+            background: lighten($accent-dark, 40);
+            cursor: pointer;
+        }
+    }
+}
