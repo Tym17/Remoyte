@@ -16,11 +16,17 @@ function createWindow () {
   let botconf = {};
   try {
       botconf = require('./botconf.json');
-      mainWindow.loadFile('player.html');
+      mainWindow.loadFile('waiting.html');
+      //mainWindow.loadURL('https://www.youtube.com/embed/aqz-KE-bpKQ?autoplay=true');
+
+      const player = require('./player');
+
+      player.go(mainWindow);
 
   } catch (e)
   {
     mainWindow.loadFile('first.html');
+    console.log(e);
   }
 
 

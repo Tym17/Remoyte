@@ -4,7 +4,8 @@
   "description": "Discord controlled youtube window",
   "main": "main.js",
   "config": {
-    "debugmode": true
+    "debugmode": false,
+    "prefix": "/ryt "
   },
   "scripts": {
     "start": "electron .",
