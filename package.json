@@ -2,6 +2,10 @@
   "name": "remoyte",
   "version": "1.0.0",
   "description": "Discord controlled youtube window",
+  "author": {
+      "name": "Tym17",
+      "url": "http://tym17.com/"
+  },
   "main": "main.js",
   "config": {
     "debugmode": false,
