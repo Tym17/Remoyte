@@ -1,0 +1,6 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.tym17.remoyte
+productName: Remoyte
+electronVersion: 2.0.7
